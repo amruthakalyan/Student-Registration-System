@@ -1,5 +1,5 @@
  
-<h3>Live Demo: https://vercel.com/amrutha-kalyans-projects/student-registration-system</h3>
+<h3>Live Demo: https://student-registration-system-nine-mu.vercel.app/</h3>
 
 
 # Getting Started with Create React App
