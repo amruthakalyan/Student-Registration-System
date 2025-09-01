@@ -1,0 +1,69 @@
+.offerings-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.offerings-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2d3e50;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.form select {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  min-width: 150px;
+}
+
+.btn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+  color: white;
+}
+
+.btn.save {
+  background: #1abc9c;
+}
+
+.btn.save:hover {
+  background: #16a085;
+}
+
+.btn.delete {
+  background: #e74c3c;
+}
+
+.btn.delete:hover {
+  background: #c0392b;
+}
+
+.offering-list {
+  list-style: none;
+  padding: 0;
+}
+
+.offering-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f4f6f9;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+}
